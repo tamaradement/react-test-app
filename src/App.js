@@ -9,8 +9,13 @@ class App extends Component {
   }
 
   render() {
-    let someVar = this.state.header + ', a new edition'
-    return (<h1>{someVar}</h1>);
+    return (
+      <div>
+        <h1>{this.state.header}</h1>
+        <h2>Some changes</h2>
+      </div>
+    
+    );
   }
 }
 
